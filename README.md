@@ -1,48 +1,5 @@
-#Real-Time Monitoring System for Fuel Theft Detection with GPS Tracking for Land-Based Trucks
+Real-Time Monitoring System for Fuel Theft Detection with GPS Tracking for Land-Based Trucks.
 
-This project is a Fuel Theft Detection system with real-time fuel monitoring and GPS tracking for land-based trucks. It was developed as part of our BSCS Thesis and was awarded the Most Innovative Project and Study. The system uses a combination of hardware and software to monitor fuel levels, track locations, and detect any theft.
+This project is a Fuel Theft Detection system designed to monitor fuel levels and track the location of land-based trucks in real-time. It was developed as part of our BSCS Thesis and awarded the Most Innovative Project and Study. The system uses a combination of hardware and software to detect fuel theft, track fuel consumption, and provide GPS location data for fleet management. The backend is built using Node.js and Express, while the frontend is developed with React. Data is stored and managed in Firebase. The hardware components include an ESP32 microcontroller, a LiFePO4 battery, a resistive fuel sensor, a NEO-6M GPS module, a buck converter for voltage regulation, a solar panel with a charge controller, and an Automatic Transfer Switch (ATS) to ensure reliable power switching between primary and backup sources.
 
-Team Members:
-
-Arwill Josh Polinag
-
-Marl Joshua Banaguas
-
-Philip Andrew Guiritan
-
-Andrian Serrano
-
-Tech Stack
-Frontend:
-
-React – User interface for displaying fuel levels, GPS data, and alerts.
-
-Backend:
-
-Node.js with Express – Handles API requests and data processing.
-
-Firebase – Real-time database and authentication.
-
-Hardware:
-
-ESP32 – Microcontroller for interfacing with sensors.
-
-LiFePO4 Battery – Power source for the system.
-
-Resistive Fuel Sensor – Detects fuel levels.
-
-NEO-6M GPS Module – Tracks the truck’s location.
-
-Buck Converter – Power management for voltage regulation.
-
-Solar Panel + Charge Controller – Provides renewable power to the system.
-
-Automatic Transfer Switch (ATS) – Ensures seamless power switching between primary and backup power sources to prevent system downtime.
-
-Features
-
-Real-time fuel monitoring and theft detection.
-
-GPS tracking for trucks.
-
-Alerts and logs for unusual fuel consumption.
+This project was developed by Arwill Josh Polinag, Marl Joshua Banaguas, Philip Andrew Guiritan, and Andrian Serrano as part of our thesis at STI College Bacoor. The system enables real-time fuel monitoring and theft detection, providing fleet operators with alerts and detailed logs. The app visualizes data and sends notifications for abnormal fuel consumption, making it a valuable tool for enhancing security and operational efficiency in the trucking industry.

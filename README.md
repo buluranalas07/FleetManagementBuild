@@ -1,4 +1,4 @@
-Fuel Theft Detection and Real-Time Fuel Monitoring System
+#Real-Time Monitoring System for Fuel Theft Detection with GPS Tracking for Land-Based Trucks
 
 This project is a Fuel Theft Detection system with real-time fuel monitoring and GPS tracking for land-based trucks. It was developed as part of our BSCS Thesis and was awarded the Most Innovative Project and Study. The system uses a combination of hardware and software to monitor fuel levels, track locations, and detect any theft.
 

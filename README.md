@@ -70,20 +70,9 @@ The system combines IoT hardware with a modern web dashboard to detect fuel thef
 ```text
 FleetManagementBuild/
 ├── README.md
-└── client/
-    └── FleetManagementThesis/
-        ├── package.json                  # Dependencies & scripts
-        ├── vite.config.js                # Vite + PWA configuration
-        ├── tailwind.config.js            # Tailwind CSS configuration
-        ├── public/                       # Static assets & PWA icons
-        └── src/
-            ├── main.jsx                  # React DOM entry
-            ├── App.jsx                   # Router & app shell
-            ├── Firebase.js               # Firebase initialization
-            ├── hooks/                    # Custom React hooks
-            ├── utils/                    # Utility functions
-            ├── components/               # UI components & shadcn primitives
-            └── pages/                    # Route-level views (Dashboard, reports, etc.)
+└── client/FleetManagementThesis/   # Main React + Vite SPA
+    ├── public/                     # Static assets & PWA icons
+    └── src/                        # App source code (Components, Pages, Hooks, Utils)
 ```
 
 ---
